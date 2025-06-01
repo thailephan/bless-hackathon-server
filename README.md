@@ -16,43 +16,41 @@ This is the backend server for the Bless Hackathon project. It provides AI-power
 - **OpenAI/Genkit/Other AI APIs**
 
 ## Project Structure
-- `src/ai/flows/` — AI-powered feature modules (translation, speech, word details, etc.)
-- `src/lib/` — Shared constants and utilities
-- `src/main.ts` — Server entry point
+- `src/ai/flows/` – AI-powered feature modules (translation, speech, word details, etc.)
+- `src/lib/` – Shared constants and utilities
+- `src/index.ts` – Server entry point
 
 ## Setup & Development
-
-1. **Install dependencies:**
+1. **Clone the repository:**
    ```cmd
-   cd server
+   git clone <your-repo-url>
+   cd bless-hackathon/server
+   ```
+2. **Install dependencies:**
+   ```cmd
    npm install
    ```
-
-2. **Configure environment:**
+3. **Configure environment:**
    - Copy `.env.example` to `.env` and fill in required API keys and settings (if needed).
-
-3. **Run the server in development:**
+4. **Run the server in development:**
    ```cmd
    npm run dev
    ```
-
-4. **Build for production:**
+5. **Build for production:**
    ```cmd
    npm run build
    ```
-
-5. **Start the production server:**
+6. **Start the production server:**
    ```cmd
    npm start
    ```
 
+## Related Repositories
+- [Bless Function Module](../bless) – Blockless function backend
+- [Bless Client](../client) – React + Vite frontend
+
 ## License
 This project is for hackathon/demo purposes. For production or open-source use, please add your own license file.
 
-## Credits
-- [Node.js](https://nodejs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [OpenAI](https://openai.com/) / [Genkit](https://github.com/google/genkit)
-
 ---
-For the client app, see the `../client` directory.
+> [GitHub Repository](https://github.com/your-org/bless-hackathon-server)
