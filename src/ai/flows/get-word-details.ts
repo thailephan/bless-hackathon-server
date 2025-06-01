@@ -7,7 +7,7 @@
  * - GetWordDetailsOutput - The return type for the getWordDetails function.
  */
 
-import {ai} from '@/ai/genkit';
+import {ai} from '../genkit-ai';
 import {z} from 'genkit';
 
 export const GetWordDetailsInputSchema = z.object({

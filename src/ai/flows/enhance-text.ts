@@ -9,9 +9,9 @@
  * - EnhanceTextOutput - The return type for the enhanceText function.
  */
 
-import {ai} from '@/ai/genkit';
+import {ai} from '../genkit-ai';
 import {z} from 'genkit';
-import type { LanguageCode } from '@/lib/constants'; // Ensure type import
+import type { LanguageCode } from '../../lib/constants'; // Ensure type import
 
 export const EnhanceTextInputSchema = z.object({
   text: z.string().describe('The text to enhance.'),

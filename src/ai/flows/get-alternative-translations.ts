@@ -9,9 +9,9 @@
  * - GetAlternativeTranslationsOutput - The return type for the getAlternativeTranslations function.
  */
 
-import {ai} from '@/ai/genkit';
+import {ai} from '../genkit-ai';
 import {z} from 'genkit';
-import type { LanguageCode } from '@/lib/constants'; // Ensure type import
+import type { LanguageCode } from '../../lib/constants'; // Ensure type import
 
 export const GetAlternativeTranslationsInputSchema = z.object({
   sourceText: z.string().describe('The original text to translate.'),

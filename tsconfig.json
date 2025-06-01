@@ -9,7 +9,7 @@
     "strict": true,
     "skipLibCheck": true,
     "resolveJsonModule": true,
-    "sourceMap": true,
+    "sourceMap": false,
     "baseUrl": ".", // This is crucial for path aliases
     "paths": {
       "@/*": ["src/*"] // Maps '@/' to the 'src/' directory

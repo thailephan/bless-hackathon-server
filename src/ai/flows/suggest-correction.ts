@@ -7,7 +7,7 @@
  * - SuggestCorrectionOutput - The return type.
  */
 
-import {ai} from '@/ai/genkit';
+import {ai} from '../genkit-ai';
 import {z} from 'genkit';
 // LanguageCode type is implicitly available through the schema definition below
 // and its usage in page.tsx for the sourceLanguage prop which is then passed here.

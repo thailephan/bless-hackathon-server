@@ -8,7 +8,7 @@
  * - TextToSpeechOutputSchema - Zod schema for the output.
  */
 
-import {ai} from '@/ai/genkit';
+import {ai} from '../genkit-ai';
 import {z} from 'genkit'; // Corrected import for Zod
 
 // Define language codes supported by your TTS model/setup
